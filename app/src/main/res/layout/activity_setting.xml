@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grad"
+    tools:context=".SettingActivity">
+
+    <include layout="@layout/view_toolbar" />
+    <LinearLayout
+        style="@style/style_setting_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            style="@style/style_setting"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/interval"/>
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ed_interval"
+            android:inputType="number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:hint="@string/tip_interval"
+            android:text="@string/default_interval"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBackground"/>
+    <LinearLayout
+        style="@style/style_setting_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/style_setting"
+            android:layout_weight="1"
+            android:text="@string/timeout"/>
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ed_time_out"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:paddingLeft="8dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/tip_timeout"
+            android:text="@string/default_timeout"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBackground"/>
+    <LinearLayout
+        style="@style/style_setting_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/style_setting"
+            android:layout_weight="1"
+            android:text="@string/retry_time"/>
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ed_retry_time"
+            android:inputType="number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:hint="@string/tip_retry_time"
+            android:text="@string/default_retry_time"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_clear"
+        style="@style/style_setting_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/style_setting"
+            android:layout_weight="1"
+            android:text="@string/clear"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_exit"
+        style="@style/style_setting_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/style_setting"
+            android:layout_weight="1"
+            android:text="@string/exit"/>
+    </LinearLayout>
+
+</LinearLayout>

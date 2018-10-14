@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">IMI助手</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="name">异常类型</string>
+    <string name="count">1</string>
+    <string name="title_activity_login">登陆</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user_name">用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登陆</string>
+    <string name="action_sign_in_short">登陆</string>
+    <string name="error_invalid_username">用户名不正确！</string>
+    <string name="error_invalid_password">请输入正确的用户名和密码！</string>
+    <string name="error_incorrect_password">请输入正确的用户名和密码！</string>
+    <string name="error_field_required">不能为空!</string>
+    <string name="permission_rationale">需要访问邮件信息</string>
+    <string name="detail_time">2017年10月12日 15:45</string>
+    <string name="detail_content">消息内容</string>
+    <string name="main_message">[语音]</string>
+    <string name="main_time">8月15</string>
+    <string name="main_content">订阅号</string>
+    <string name="action_message">消息</string>
+    <string name="save_username">保存用户名和密码</string>
+    <string name="exit">退出登录</string>
+    <string name="clear">清除消息通知</string>
+    <string name="retry_time">连接重试次数（次）</string>
+    <string name="timeout">连接超时时间（秒）</string>
+    <string name="interval">定时请求间隔（秒）</string>
+    <string name="default_retry_time">3</string>
+    <string name="default_timeout">10</string>
+    <string name="default_interval">60</string>
+    <string name="tip_retry_time">请输入0~5之间的数字</string>
+    <string name="tip_timeout">请输入5~20之间的数字</string>
+    <string name="tip_interval">请输入30~3600之间的数字</string>
+    <string name="action_settings">设置</string>
+    <string name="action_save">保存</string>
+    <string name="back">返回</string>
+    <string name="detail">详情：</string>
+    <string name="deal_state">处理状态：</string>
+    <string name="record_time">记录时间：</string>
+    <string name="remark">处理备注：</string>
+    <string name="deal_time">处理时间：</string>
+    <string name="request_failed">获取数据失败，请重试！</string>
+    <string name="network_error">网络未连接，请打开网络！</string>
+    <string name="load">数据加载中...</string>
+    <string name="day">%s</string>
+    <string name="cmd_request"><![CDATA[StartDataGet%s>>>%s%s*****]]></string>
+    <string name="cmd_login_order">SELECT Name,UserType FROM [SMTSYSTEM].[dbo].[LSMTUserAccount] WHERE Password=\'%s\' AND Name=\'%s\'</string>
+    <string name="data_order">SELECT TOP 1000 [MessType],[MessDate],[MessDetail],[DealState],[DealTime],[DealRemark],[RecordTime],[UniqueID]  FROM [SMTSYSTEM].[dbo].[LSMTImportantMessage] WHERE [PushSelected]=\'FALSE\' AND [MessDate]=\'%s\' ORDER BY [MessType],[DealState],[RecordTime]</string>
+    <string name="data_more_order"><![CDATA[SELECT TOP 1000 [MessType],[MessDate],[MessDetail],[DealState],[DealTime],[DealRemark],[RecordTime],[UniqueID]  FROM [SMTSYSTEM].[dbo].[LSMTImportantMessage] WHERE [PushSelected]=\'FALSE\' AND [MessDate]>\'%s\' ORDER BY [MessType],[DealState],[RecordTime]]]></string>
+    <string name="login_error">登陆失效，请重新登陆！</string>
+</resources>

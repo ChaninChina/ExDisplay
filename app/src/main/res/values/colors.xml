@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#2196f3</color>
+    <color name="colorAccent">#2979ff</color>
+    <color name="colorPrimaryBack">#000000</color>
+    <color name="colorBackground">#ebe4e4</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorForeground">#b224f9</color>
+    <color name="textColorPrimary">#525252</color>
+    <color name="textColorPrimaryInverse">#ffffff</color>
+    <color name="textColorSecondary">#8a8a8a</color>
+    <color name="textColorSecondaryInverse">#e5e5e5</color>
+
+    <color name="red">#ee0d23</color>
+    <color name="green">#01ad51</color>
+    <color name="white">#ffffff</color>
+    <color name="grad1">#ca7ea9</color>
+    <color name="blue2">#529fe7</color>
+    <color name="color0">#950a4e</color>
+    <color name="color1">#de6223</color>
+    <color name="color2">#5f6bf1</color>
+    <color name="color3">#eed8b5</color>
+    <color name="color4">#dcd5d6</color>
+    <color name="color_bt_normal">#ffffff</color>
+
+    <color name="menu_bottom_color">#515151</color>
+
+    <color name="half_transparent">#6403a9f4</color>
+    <color name="black">#000000</color>
+    <color name="grad">#dedddd</color>
+</resources>
